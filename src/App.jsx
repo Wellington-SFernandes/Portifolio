@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
 import Header from "./components/pages/styles/header";
 import Footer from "./components/pages/styles/footer";
 import Inicio from "./components/pages/1-Inicio";
@@ -11,19 +11,19 @@ import "./components/pages/styles/styles.css";
 
 function App() {
   return (
-    <div style={{ backgroundColor: "black", color: "white", minHeight: "100vh" }}>
-      <Router>
-        <Header />
-        <Routes>
-          {/* Definição das rotas */}
-          <Route path="/" element={<Inicio />} />
-          <Route path="/sobre" element={<Sobre />} />
-          <Route path="/qualificacoes" element={<Qualificacoes />} />
-          <Route path="/documentos" element={<Documentos />} />
-          <Route path="/contatos" element={<Contatos />} />
-        </Routes>
-        <Footer />
-      </Router>
+    <div
+      style={{ backgroundColor: "black", color: "white", minHeight: "100vh" }}
+    >
+      <Header />
+      <Routes>
+        {/* Definição das rotas */}
+        <Route path="/" element={<Inicio />} />
+        <Route path="/sobre" element={<Sobre />} />
+        <Route path="/qualificacoes" element={<Qualificacoes />} />
+        <Route path="/documentos" element={<Documentos />} />
+        <Route path="/contatos" element={<Contatos />} />
+      </Routes>
+      <Footer />
     </div>
   );
 }
