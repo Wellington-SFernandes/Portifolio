@@ -1,26 +1,50 @@
 import React from "react";
 
-// Componente funcional Sobre
 const Sobre = () => {
   return (
-    <div className="d-flex justify-content-center align-items-center vh100">
-      <div className="text-center">
-        <h1>Minha História</h1>
-        <p>
-          Sou supervisor de transporte em uma transportadora que atua no Porto
-          de Santos - SP. Sempre fui apaixonado por tecnologia e, nos últimos
-          anos, venho me especializando no desenvolvimento web. Tenho
-          experiência com HTML5, CSS, JavaScript e frameworks como React.js e
-          Bootstrap. No meu percurso como desenvolvedor, tive a oportunidade de
-          criar um site para uma petshop em parceria com a OneBitCode,
-          utilizando HTML, CSS e JavaScript. Além disso, desenvolvi sozinho um
-          sistema completo para a lavanderia da minha sogra, utilizando
-          React.js, Bootstrap e AG Grid, aprimorando meus conhecimentos em
-          componentes reutilizáveis, gerenciamento de estado e integração com
-          bancos de dados. Estou sempre buscando novos desafios e oportunidades
-          para aprimorar minhas habilidades e contribuir com soluções inovadoras
-          no mundo da tecnologia.
-        </p>
+    <div className="container d-flex flex-column justify-content-center">
+      {/* Título centralizado */}
+      <div className="row w-100 text-center mb-4">
+        <div className="col-12">
+          <h1>História</h1>
+        </div>
+      </div>
+
+      {/* Conteúdo dividido em duas colunas */}
+      <div className="row w-100">
+        {/* Coluna da esquerda: Minha Jornada */}
+        <div className="col-12 col-md-6 text-center text-md-end border-end pe-md-4 mb-4 mb-md-0">
+          <h2>Minha Trajetória</h2>
+          <p>
+            Sou supervisor de transporte em uma transportadora que atua no Porto
+            de Santos - SP, onde adquiri vasta experiência em logística, gestão
+            de equipes e otimização de processos operacionais. Sempre fui
+            apaixonado por tecnologia e, nos últimos anos, venho me
+            especializando no desenvolvimento web, combinando minha expertise no
+            setor de transportes com soluções digitais para otimização de
+            serviços. Tenho experiência sólida com HTML5, CSS3, JavaScript e
+            frameworks modernos, como React.js e Bootstrap, além de conhecimento
+            em gerenciamento de estados, integração com APIs e desenvolvimento
+            de interfaces responsivas e intuitivas.
+          </p>
+        </div>
+
+        {/* Coluna da direita: Meu Futuro */}
+        <div className="col-12 col-md-6 text-center text-md-start ps-md-4">
+          <h2>Meus Próximos Passos</h2>
+          <p>
+            Combinando minha experiência em gestão logística e desenvolvimento
+            web, meu objetivo é ingressar profissionalmente como desenvolvedor
+            front-end e, posteriormente, expandir minha atuação para o back-end,
+            tornando-me um desenvolvedor full stack. Continuarei aprimorando
+            minhas habilidades em JavaScript, React.js, segurança de rede e boas
+            práticas de desenvolvimento, buscando criar soluções inovadoras que
+            otimizem processos e impulsionem negócios. No futuro, desejo unir
+            minha expertise em tecnologia e transportes para desenvolver sistemas
+            eficientes e escaláveis, contribuindo para a transformação digital no
+            setor logístico e em outras áreas. 🚀
+          </p>
+        </div>
       </div>
     </div>
   );

@@ -7,7 +7,7 @@ const Inicio = () => {
         <p>
           {" "}
           Me chamo Wellington Fernandes, sou desenvolvedor front-end e estou
-          caminhando para a carreira Full stack.
+          evoluindo para a carreira Full stack.
         </p>
         <p>Vemha conhecer um pouco mais sobre mim e sobre o meu trabalho!</p>
       </div>

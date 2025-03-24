@@ -12,7 +12,7 @@ import {
 const Documentos = () => {
   return (
     // Container principal com alinhamento central
-    <div className="d-flex justify-content-center align-items-center vh100">
+    <div className="d-flex justify-content-center align-items-center">
       <div className="text-center">
         {/* Título da seção */}
         <h1>Documentos</h1>

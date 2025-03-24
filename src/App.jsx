@@ -12,7 +12,7 @@ import "./components/pages/styles/styles.css";
 function App() {
   return (
     <div
-      style={{ backgroundColor: "black", color: "white", minHeight: "100vh" }}
+      style={{ backgroundColor: "dark", color: "white", minHeight: "100vh" }}
     >
       <Header />
       <Routes>

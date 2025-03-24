@@ -7,11 +7,12 @@ import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 const Contatos = () => {
   return (
     // Container principal com alinhamento central
-    <div className="d-flex justify-content-center align-items-center vh100">
+    <div className="d-flex justify-content-center align-items-center">
       <div className="text-center">
         {/* Título da seção */}
         <h1>Entre em contato comigo!</h1>
         {/* Texto explicativo */}
+        <p>Estou disponível para novas oportunidades e parcerias. Entre em contato comigo!</p>
         <p>Você pode me encontrar nas seguintes redes sociais:</p>
         {/* Lista de links para redes sociais */}
         <ul className="list-unstyled">
