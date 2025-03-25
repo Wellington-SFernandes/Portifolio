@@ -16,7 +16,7 @@ const Sobre = () => {
         <div className="col-12 col-md-6 text-center text-md-end border-end pe-md-4 mb-4 mb-md-0">
           <h2>Minha Trajetória</h2>
           <p>
-            Sou supervisor de transporte em uma transportadora que atua no Porto
+            Sou Supervisor de transporte em uma transportadora que atua no Porto
             de Santos - SP, onde adquiri vasta experiência em logística, gestão
             de equipes e otimização de processos operacionais. Sempre fui
             apaixonado por tecnologia e, nos últimos anos, venho me
