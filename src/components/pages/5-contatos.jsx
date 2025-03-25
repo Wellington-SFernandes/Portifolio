@@ -12,7 +12,7 @@ const Contatos = () => {
         {/* Título da seção */}
         <h1>Entre em contato comigo!</h1>
         {/* Texto explicativo */}
-        <p>Estou disponível para novas oportunidades e parcerias. Entre em contato comigo!</p>
+        <p>Estou disponível para novas oportunidades e parcerias.</p>
         <p>Você pode me encontrar nas seguintes redes sociais:</p>
         {/* Lista de links para redes sociais */}
         <ul className="list-unstyled">
