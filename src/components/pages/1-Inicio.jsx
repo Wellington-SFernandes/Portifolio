@@ -1,7 +1,7 @@
 // Componente funcional Inicio
 const Inicio = () => {
   return (
-    <div className="d-flex justify-content-center align-items-center vh100">
+    <div className="d-flex justify-content-center align-items-center">
       <div className="text-center">
         <h1>Bem-vindo ao meu portfólio!</h1>
         <p>
