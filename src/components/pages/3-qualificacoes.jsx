@@ -6,7 +6,7 @@ const Qualificacoes = () => {
       {/* Título centralizado */}
       <div className="row w-100 text-center mb-4">
         <div className="col-12">
-          <h1>Minhas Habilidades e Qualificações 🚀</h1>
+          <h1>Habilidades e Qualificações 🚀</h1>
         </div>
       </div>
 
